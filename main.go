@@ -190,12 +190,6 @@ MainMenu:
 
 				giveHint(usernumber, n)
 
-				if usernumber > n {
-					fmt.Println("Секретное число меньше, чем твое")
-				} else {
-					fmt.Println("Секретное число больше, чем твое")
-				}
-
 				if i == maxAttempts {
 					fmt.Printf("%sВы проиграли!😢 Секретное число было: %d%s\n", colorRed, n, colorReset)
 				}
